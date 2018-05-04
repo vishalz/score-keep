@@ -7,7 +7,9 @@ export default class PlayersList extends React.Component{
 
     if(this.props.players.length === 0){
       return(
-        <p> Add a player to get started!</p>
+        <div className='item'>
+          <p className='item__message'> Add a player to get started!</p>
+        </div>
       );
     } else {
       return this.props.players.map((player)=>{
