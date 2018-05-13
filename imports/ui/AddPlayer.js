@@ -21,8 +21,8 @@ export default class AddPlayer extends React.Component{
 
     return(
       <div className='item'>
-        <form onSubmit={this.handleSubmit.bind(this)}>
-          <input ref='playerName' type='text' placeholder='Player Name'></input>
+        <form className='form' onSubmit={this.handleSubmit.bind(this)}>
+          <input className='form__input' ref='playerName' type='text' placeholder='Player Name'></input>
           <button className='button'>Add Player</button>
         </form>
       </div>
