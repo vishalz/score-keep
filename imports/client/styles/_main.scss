@@ -19,8 +19,15 @@ h1{
   font-size   : 2.4rem;
 }
 
+input, button{
+  font-size: 1.3rem;
+  font-weight: 300;
+}
+
 @import './components/title-bar';
 @import './components/wrapper';
 @import './components/item';
 @import './components/button';
+@import './components/form';
+@import './components/player';
 
